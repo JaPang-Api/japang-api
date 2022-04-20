@@ -105,13 +105,24 @@ WSGI_APPLICATION = 'ecommerce_api.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'japang',
+#         'USER': 'japang',
+#         'PASSWORD': '@Japang2022',
+#         'HOST': '35.224.17.103',
+#         'PORT': '3306',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'japang',
-        'USER': 'japang',
-        'PASSWORD': '@Japang2022',
-        'HOST': '35.224.17.103',
+        'NAME': 'heroku_568191330887ddb',
+        'USER': 'b2c0d8b01f90d4',
+        'PASSWORD': 'f37cc648',
+        'HOST': 'us-cdbr-east-05.cleardb.net',
         'PORT': '3306',
     }
 }
